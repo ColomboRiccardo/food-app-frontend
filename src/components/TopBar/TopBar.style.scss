@@ -1,0 +1,17 @@
+.topbar-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0px;
+
+	.login-menu {
+		display: flex;
+		flex-direction: row;
+
+		p {
+			margin: 0px 20px;
+			cursor: pointer;
+		}
+	}
+}
