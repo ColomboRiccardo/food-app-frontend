@@ -11,7 +11,7 @@ const Homepage = () => (
 				We’ll use machine learning to identify them, and propose to you any
 				recipe available where to use them!
 			</p>
-			<span>Start cooking!</span>
+			<span className='primary-button'>Start cooking!</span>
 		</div>
 		<div>
 			<img className='main-image' src={homepagePhone} alt='homepage pic' />

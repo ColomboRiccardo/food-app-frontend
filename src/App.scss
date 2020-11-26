@@ -1,5 +1,16 @@
 .App {
 	box-sizing: border-box;
-	width: 60%;
+	width: 65%;
 	margin: auto;
+	font-size: 1.2em;
+}
+
+h1,
+h2 {
+	font-family: 'Lora', serif;
+}
+
+p,
+span {
+	font-family: 'Nunito', sans-serif;
 }

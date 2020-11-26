@@ -5,12 +5,13 @@ import Logo from '../../assets/Logo.png';
 
 const TopBar = () => (
 	<div className='topbar-container'>
-		<div>
-			<img className='Logo' src={Logo} alt='this is the logo' />
+		<div className='logo'>
+			<img className='logo-icon' src={Logo} alt='this is the logo' />
+			<h2>Recipe-Ingredients App</h2>
 		</div>
 		<div className='login-menu'>
 			<p>Register</p>
-			<p>Login</p>
+			<p className='primary-button'>Login</p>
 		</div>
 	</div>
 );
