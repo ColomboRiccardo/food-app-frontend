@@ -1,20 +1,20 @@
 import React from 'react';
 
 import './Homepage.styles.scss';
+import homepagePhone from '../../assets/homepagePhone.png';
 
 const Homepage = () => (
 	<div className='homepage-container'>
-		<div>
-			<h1>Recipes in the palm of your hand</h1>
-			<p>Upload a picture of the ingredients, we'll give you the recipe</p>
-			<button>Start cooking!</button>
+		<div className='hero-container'>
+			<h1>Take a picture of your ingredients,</h1>
+			<p>
+				We’ll use machine learning to identify them, and propose to you any
+				recipe available where to use them!
+			</p>
+			<span>Start cooking!</span>
 		</div>
 		<div>
-			<img
-				className='main-image'
-				src='https://i.pinimg.com/originals/01/cf/89/01cf89a4f83bdfff65b9b5ec380a6c0e.jpg'
-				alt='homepage pic'
-			/>
+			<img className='main-image' src={homepagePhone} alt='homepage pic' />
 		</div>
 	</div>
 );

@@ -3,8 +3,12 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+
+	.hero-container {
+		width: 400px;
+	}
 }
 
 .main-image {
-	width: 400px;
+	width: 300px;
 }
