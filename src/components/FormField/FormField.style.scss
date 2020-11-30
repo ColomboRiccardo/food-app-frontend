@@ -1,0 +1,18 @@
+.inputs {
+	margin: 10px 0px;
+	width: 300px;
+	height: 25px;
+	border-radius: 30px;
+	padding: 8px 18px;
+	&:focus {
+		outline: none;
+	}
+}
+.primary-button {
+	padding: 8px 18px;
+	background-color: aquamarine;
+	border-radius: 30px;
+	&:focus {
+		outline: none;
+	}
+}
